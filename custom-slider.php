@@ -196,9 +196,6 @@ class OjaSliderBlock {
       filemtime( "$dir/assets/swiper.css"  )
     );
 
-    // FontAwesomeの読み込み
-    wp_enqueue_script('fontawesome_js','https://kit.fontawesome.com/fb19e987ff.js');
-    wp_enqueue_style('fontawesome_css','https://use.fontawesome.com/releases/v5.2.0/css/all.css');
   }
 } // class OjaSliderBlock
 
