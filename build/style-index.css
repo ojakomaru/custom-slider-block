@@ -1,0 +1,180 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.wp-block-oja-custom-slider {
+  margin: 40px auto;
+  max-width: 640px;
+  padding: 2px 10px;
+  padding-top: 12px;
+}
+.wp-block-oja-custom-slider .swiper {
+  width: 100%;
+  max-width: 1080px;
+}
+.wp-block-oja-custom-slider .oja-media-slider {
+  min-height: 30%;
+}
+.wp-block-oja-custom-slider .oja-media-slider .media_slide {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.wp-block-oja-custom-slider .oja-media-slider .media_slide:before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+.wp-block-oja-custom-slider .oja-media-slider .media_slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.oja-post-slider {
+  min-height: 300px;
+}
+@media screen and (min-width: 1200px) {
+  .oja-post-slider {
+    min-height: 255px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .oja-post-slider {
+    min-height: 300px;
+  }
+}
+@media screen and (min-width: 548px) {
+  .oja-post-slider {
+    min-height: 290px;
+  }
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.item_detail {
+  min-height: 176px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .item_detail {
+    min-height: 240px;
+  }
+}
+.item_detail .item_page {
+  display: block;
+  text-decoration: none;
+}
+.item_detail .post_thumbnail {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.item_detail .post_thumbnail:before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+.item_detail .post_thumbnail img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.item_detail .post_text {
+  padding: 6px 8px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .item_detail .post_text {
+    padding: 10px 13px;
+    padding-bottom: 30px;
+  }
+}
+.item_detail .post_text h1 {
+  font-size: 12px;
+  line-height: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: #847d76;
+}
+@media screen and (min-width: 768px) {
+  .item_detail .post_text h1 {
+    font-size: 13px;
+    line-height: 1.3rem;
+  }
+}
+
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  text-shadow: 0 0 2px #aaa;
+  transition: color 0.4s ease, background 0.4s ease, transform 0.4s ease, opacity 0.4s ease, border 0.4s ease, padding 0.4s ease, left 0.4s ease, box-shadow 0.4s ease;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-image: none !important;
+  top: 20% !important;
+}
+@media screen and (min-width: 768px) {
+  .swiper-button-prev,
+.swiper-button-next {
+    top: 15% !important;
+  }
+}
+
+.swiper-button-prev {
+  left: 3% !important;
+}
+
+.swiper-button-next {
+  right: 3% !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  font-size: 30px !important;
+  color: #fff;
+}
+
+.swiper-button-prev:after {
+  content: "\f104" !important;
+  margin-left: 20px;
+  /* マージンを追加 */
+}
+
+.swiper-button-next:after {
+  content: "\f105" !important;
+  margin-right: 20px;
+}
+
+.swiper-pagination {
+  bottom: 5% !important;
+  margin-top: 20px;
+}
+
+.swiper-scrollbar-drag {
+  background: rgba(63, 65, 153, 0.7) !important;
+  /* 背景色（現在のスライド） */
+}
+
+/*# sourceMappingURL=style-index.css.map*/

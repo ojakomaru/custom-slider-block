@@ -1,0 +1,41 @@
+@charset 'utf-8';
+
+.wp-block-oja-custom-slider {
+  max-width: 720px;
+}
+.wp-block-oja-custom-slider .slider-block-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+ 
+.wp-block-oja-custom-slider .slider-block-container img {
+  width: 100%;
+  max-width: 160px;
+  margin: 10px;
+}
+ 
+.image {
+  cursor: pointer;
+}
+ 
+.wp-block-oja-custom-slider figcaption.block-image-caption {
+  text-align: center;
+  margin-top: 0;
+}
+
+#oja_posts_select {
+  overflow: hidden scroll;
+  border: 1px solid #C0BCBC;
+  background: #fcfcfc;
+  font-size: 14px;
+  min-width: 500px;
+  min-height: 150px !important;
+  height: auto;
+  padding: 2%;
+  max-width: inherit;
+  option {
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+}
